@@ -1,0 +1,46 @@
+{
+  "name": "allygo",
+  "version": "1.0.0",
+  "description": "AllyGo - Empowering Tomorrow's Leaders through a command-based and open-source platform.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "build": "webpack --mode production",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "allygo",
+    "leadership",
+    "open-source",
+    "community",
+    "self-improvement"
+  ],
+  "author": "MJ-AHMAD and the AllyGo Community",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "axios": "^1.4.0",
+    "eslint": "^8.37.0",
+    "jest": "^29.5.0",
+    "nodemon": "^3.1.10",
+    "webpack": "^5.85.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MJ-AHMAD/AllyGo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MJ-AHMAD/AllyGo/issues"
+  },
+  "homepage": "https://github.com/MJ-AHMAD/AllyGo#readme",
+  "type": "commonjs"
+}
